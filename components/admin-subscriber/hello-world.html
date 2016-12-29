@@ -12,34 +12,87 @@
                 </button>
                 <a class="navbar-brand" href="index.html">SP Admin</a>
             </div>
+
             <!-- Top Menu Items -->
             <ul class="nav navbar-right top-nav">
-                  <li class="dropdown">
+                 <li class="dropdown">
                     <a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i>Sandip<b class="caret"></b></a>
                 </li>
             </ul>
+
             <!-- Sidebar Menu Items - These collapse to the responsive navigation menu on small screens -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav side-nav">
-                    <li class="active">
-                        <a><i class="glyphicon glyphicon-dashboard"></i> Dashboard</a>
-                    </li>
-                    <li>
-                        <a data-toggle="collapse" data-target="#demo"><i class="glyphicon glyphicon-collapse-down"></i> Dropdown</a>
-                        <ul id="demo" class="collapse">
+                    <li class="cursor-pointer">
+                        <a data-toggle="collapse" data-target="#Subscriber">
+                            <i class="fa fa-th-large" aria-hidden="true"></i> Subscriber
+                        </a>
+                        <ul id="Subscriber" class="collapse">
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Register</a>
                             </li>
                             <li>
-                                <a href="#">Dropdown Item</a>
+                                <a href="#">Manage</a>
                             </li>
                         </ul>
                     </li>
-                    <li>
-                        <a><i></i> Blank Page</a>
+                    <li class="cursor-pointer">
+                        <a data-toggle="collapse" data-target="#thems">
+                            <i class="glyphicon glyphicon-collapse-down"></i> Thems
+                        </a>
+                        <ul id="thems" class="collapse">
+                            <li>
+                                <a href="#">Add</a>
+                            </li>
+                            <li>
+                                <a href="#">Manage</a>
+                            </li>
+                        </ul>
                     </li>
-                    <li>
-                        <a><i></i> RTL Dashboard</a>
+                    <li class="cursor-pointer">
+                        <a data-toggle="collapse" data-target="#demo">
+                            <i class="glyphicon glyphicon-collapse-down"></i> Subscription plan
+                        </a>
+                        <ul id="demo" class="collapse">
+                            <li>
+                                <a href="#">Add</a>
+                            </li>
+                            <li>
+                                <a href="#">Manage</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a data-toggle="collapse" data-target="#categories">
+                            <i class="glyphicon glyphicon-collapse-down"></i> Categories
+                        </a>
+                        <ul id="categories" class="collapse">
+                            <li>
+                                <a href="#">Add</a>
+                            </li>
+                            <li>
+                                <a href="#">Update</a>
+                            </li>
+                            <li>
+                                <a href="#">Delete</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="cursor-pointer">
+                        <a data-toggle="collapse" data-target="#cities">
+                            <i class="glyphicon glyphicon-collapse-down"></i> Cities
+                        </a>
+                        <ul id="cities" class="collapse">
+                            <li>
+                                <a href="#">Add</a>
+                            </li>
+                            <li>
+                                <a href="#">Update</a>
+                            </li>
+                            <li>
+                                <a href="#">Delete</a>
+                            </li>
+                        </ul>
                     </li>
                 </ul>
             </div>
